@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+
+.wrapper{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: min(90%,70rem);
+}
+body{
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.gradient-01 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 130px;
+    width: 40px;
+    background: rgb(36,0,10);
+    background: linear-gradient(43deg, rgba(36,0,10,1) 0%, rgba(37,9,121,1) 0%, rgba(0,9,255,1) 100%);
+    filter: blur(120px);
+  }
+
+
+.gray-secondary{
+  color: gray;
+}
+
+.text-large{
+  font-size: 5rem;
+}
+
+.footer{
+  margin-top: auto;
+
+}
+
+
+.blur-effect{
+  backdrop-filter: blur(10px);
+  height: 100%;
+  width: 100%;
+}
+
+.word{display: inline-block;margin:0 .25rem;}
+
+.incorrect{
+  color:hsla(0, 93%, 62%, 0.549);
+}
+.correct{
+  color: #b4b5b8;
+}
+
+.error{
+  text-decoration: underline;
+  text-decoration-color: hsla(0, 87%, 43%, 0.445);
+}
+
+.word-text{
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 1.74rem;
+  font-weight: bold;
+  color: rgb(90, 88, 88);
+
+}
+
+
+.cursor {
+  line-height: 17px;
+  margin-left: 3px;
+  animation: blink 1s infinite;
+  width: 2px;
+  height: 15px;
+}
+
+@keyframes blink {
+  0% {background: transparent}
+  50% {background: #e8dd10}
+  100% {background: transparent}
+}
